@@ -1,0 +1,125 @@
+.art_int__whatart_int {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+    background: var(--color-footer);
+
+
+    
+        /* ff 3.6+ */
+        background: -moz-radial-gradient(circle at 0% 0%, rgba(63, 63, 62, 1) 0%, rgba(27, 26, 26, 1) 64%, rgba(0, 0, 0, 1) 100%);
+    
+        /* safari 5.1+,chrome 10+ */
+        background: -webkit-radial-gradient(circle at 0% 0%, rgba(63, 63, 62, 1) 0%, rgba(27, 26, 26, 1) 64%, rgba(0, 0, 0, 1) 100%);
+    
+        /* opera 11.10+ */
+        background: -o-radial-gradient(circle at 0% 0%, rgba(63, 63, 62, 1) 0%, rgba(27, 26, 26, 1) 64%, rgba(0, 0, 0, 1) 100%);
+    
+        /* ie 10+ */
+        background: -ms-radial-gradient(circle at 0% 0%, rgba(63, 63, 62, 1) 0%, rgba(27, 26, 26, 1) 64%, rgba(0, 0, 0, 1) 100%);
+    
+        /* global 92%+ browsers support */
+        background: radial-gradient(circle at 0% 0%, rgba(63, 63, 62, 1) 0%, rgba(27, 26, 26, 1) 64%, rgba(0, 0, 0, 1) 100%);
+    
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.art_int__whatart_int-feature {
+    display: flex;
+}
+
+/* Customizing feature component as per needs */
+.art_int__whatart_int-feature .art_int__features-container__feature {
+    margin: 0;
+}
+
+/* Customizing feature component as per needs */
+.art_int__whatart_int-feature .art_int__features-container_feature-text {
+    max-width: 700px;
+}
+
+.art_int__whatart_int-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 4rem 0 2rem;
+}
+
+.art_int__whatart_int-heading h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    max-width: 510px;
+}
+
+.art_int__whatart_int-heading p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+.art_int__whatart_int-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    margin-top: 2rem;
+}
+
+/* Customizing feature component as per needs */
+.art_int__whatart_int-container .art_int__features-container__feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+/* Customizing feature component as per needs */
+.art_int__whatart_int-container .art_int__features-container_feature-text {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .art_int__whatart_int-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .art_int__whatart_int-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    /* Customizing feature component as per needs */
+    .art_int__whatart_int-feature .art_int__features-container__feature {
+        flex-direction: column;
+    }
+
+    /* Customizing feature component as per needs */
+    .art_int__whatart_int-feature .art_int__features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+
+    .art_int__whatart_int-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    /* Customizing feature component as per needs */
+    .art_int__whatart_int-container .art_int__features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}
