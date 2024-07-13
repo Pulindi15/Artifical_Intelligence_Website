@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Artifical_Intelligence_Website/static/css/main.091a5ce1.chunk.css",
+    "main.js": "/Artifical_Intelligence_Website/static/js/main.860dd9a8.chunk.js",
+    "main.js.map": "/Artifical_Intelligence_Website/static/js/main.860dd9a8.chunk.js.map",
+    "runtime~main.js": "/Artifical_Intelligence_Website/static/js/runtime~main.e76d84ae.js",
+    "runtime~main.js.map": "/Artifical_Intelligence_Website/static/js/runtime~main.e76d84ae.js.map",
+    "static/js/2.dfad08ef.chunk.js": "/Artifical_Intelligence_Website/static/js/2.dfad08ef.chunk.js",
+    "static/js/2.dfad08ef.chunk.js.map": "/Artifical_Intelligence_Website/static/js/2.dfad08ef.chunk.js.map",
+    "index.html": "/Artifical_Intelligence_Website/index.html",
+    "precache-manifest.0705101bb8ea713c8123a6a73099758b.js": "/Artifical_Intelligence_Website/precache-manifest.0705101bb8ea713c8123a6a73099758b.js",
+    "service-worker.js": "/Artifical_Intelligence_Website/service-worker.js",
+    "static/css/main.091a5ce1.chunk.css.map": "/Artifical_Intelligence_Website/static/css/main.091a5ce1.chunk.css.map",
+    "static/media/ai.png": "/Artifical_Intelligence_Website/static/media/ai.0848c116.png",
+    "static/media/blog01.png": "/Artifical_Intelligence_Website/static/media/blog01.d50d2c04.png",
+    "static/media/blog02.png": "/Artifical_Intelligence_Website/static/media/blog02.c98b11ff.png",
+    "static/media/blog03.png": "/Artifical_Intelligence_Website/static/media/blog03.36e94a87.png",
+    "static/media/blog04.png": "/Artifical_Intelligence_Website/static/media/blog04.9200ceab.png",
+    "static/media/blog05.png": "/Artifical_Intelligence_Website/static/media/blog05.b7334ef9.png",
+    "static/media/logo.png": "/Artifical_Intelligence_Website/static/media/logo.a7433880.png",
+    "static/media/people.png": "/Artifical_Intelligence_Website/static/media/people.3d848993.png",
+    "static/media/possibility.png": "/Artifical_Intelligence_Website/static/media/possibility.433cc6c3.png"
+  }
+}
